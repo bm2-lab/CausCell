@@ -6,7 +6,7 @@ This repository hosts the official implementation of CausCell, a method that can
 Our experiments were conducted on python=3.9.7 and our CUDA version is 11.4.
 We recommend using Anaconda / Miniconda to create a conda environment for using CausCell. You can create a python environment using the following command:
 ```python
-conda  create -n causcell python==3.9.7
+conda create -n causcell python==3.9.7
 ```
 
 Then, you can activate the environment using:
