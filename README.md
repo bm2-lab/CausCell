@@ -14,8 +14,9 @@ In the example datasets, it contains 3 concepts and there are 4, 4, 3 concept va
 
 ```mermaid
 graph LR
-    A --> C
-    B --> C
+    Concept_A --> Concept_C
+    Concept_B --> Concept_C
+    Unexplained_concept
 ```
 ## Core API interface for model training
 Using this API, you can train CausCell on your own datasets using a few lines of code. 
