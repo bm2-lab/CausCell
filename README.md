@@ -2,6 +2,9 @@
 ## Introduction 
 This repository hosts the official implementation of CausCell, a method that can disentangle single-cell data into various concept based on pre-defined causal structure between underlying concepts. Additionally, CausCell can be used for counterfactual generation in single-cell data, while the counterfactual generated cells are consistent with the causal structure in realistic cases.
 
+## Installation
+Our experiments were conducted on python=3.9.7 and our CUDA version is 11.4.
+
 ## Example data
 We have made available the code necessary to generate example data, serving as a practical illustration for training and testing the CausCell model. 
 ```python
@@ -118,3 +121,6 @@ counterfactual_generated_cells = model.counterfactual_generation(data_pwd="./Dat
                                                                  multi_target_list=multi_target_list, 
                                                                  file_name="Counterfactual_generated_cells")
 ```
+## Citation
+## Contacts
+bm2-lab@tongji.edu.cn
