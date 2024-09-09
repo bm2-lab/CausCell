@@ -1,11 +1,19 @@
-# CausCell
+# CausCell: Causal disentanglement for single-cell representations and controllable generation
+## Introduction 
+This repository hosts the official implementation of CausCell, a method that can disentangle single-cell data into various concept based on pre-defined causal structure between underlying concepts. Additionally, CausCell can be used for counterfactual generation in single-cell data, while the counterfactual generated cells are consistent with the realistic scenarios.
 
 ## Example data
 We have made available the code necessary to generate example data, serving as a practical illustration for training and testing the CausCell model. 
 ```python
 python ./Data/GeneratingExampleData.py
 ```
-In the example datasets, it contains 3 concepts and there are 4, 4, 3 concept values for each concept, respectively. The causal structure between these three concepts are defined as A->C<-B.
+In the example datasets, it contains 3 concepts and there are 4, 4, 3 concept values for each concept, respectively. The causal structure between these three concepts are defined as follows:
+
+```mermaid
+graph LR
+    A --> C
+    B --> C
+```
 ## Core API interface for model training
 Using this API, you can train CausCell on your own datasets using a few lines of code. 
 ```python
