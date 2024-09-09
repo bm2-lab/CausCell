@@ -27,7 +27,7 @@ We have made available the code necessary to generate example data, serving as a
 ```python
 python ./Data/GeneratingExampleData.py
 ```
-In the example datasets, it contains 3 concepts and there are 4, 4, 3 concept values for each concept, respectively. The causal structure between these three concepts are defined as follows:
+In the example datasets, it contains 3 concepts and there are 4, 4, 3 concept values, respectively. The causal structure between these three concepts is defined as follows:
 
 ```mermaid
 graph LR
