@@ -26,7 +26,7 @@ Using this API, you can obtain the concept representations and reconstructed cel
 ```python
 from causcell import CausCell
 
-model = CausCell(save_and_sample_every=10)
+model = CausCell()
 concept_list = ['concept_A','concept_B','concept_C']
 concept_counts = [4, 4, 3]
 concept_cdag = [[0,0,0,0],[0,0,0,0],[1,1,0,0],[0,0,0,0]]
@@ -56,7 +56,7 @@ Using this API, you can load trained CausCell and perform counterfactual generat
 ```python
 from causcell import CausCell
 
-model = CausCell(save_and_sample_every=10)
+model = CausCell()
 concept_list = ['concept_A','concept_B','concept_C']
 concept_counts = [4, 4, 3]
 concept_cdag = [[0,0,0,0],[0,0,0,0],[1,1,0,0],[0,0,0,0]]
