@@ -1,5 +1,11 @@
 # CausCell
 
+## Example data
+We have made available the code necessary to generate example data, serving as a practical illustration for training and testing the CausCell model. 
+```python
+python ./Data/GeneratingExampleData.py
+```
+In the example datasets, it contains 3 concepts and there are 4, 4, 3 concept values for each concept, respectively. The causal structure between these three concepts are defined as A->C<-B.
 ## Core API interface for model training
 Using this API, you can train CausCell on your own datasets using a few lines of code. 
 ```python
