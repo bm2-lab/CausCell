@@ -1,7 +1,7 @@
 # CausCell: Causal disentanglement for single-cell representations
 ## Introduction 
 This repository hosts the official implementation of CausCell, a method that can disentangle single-cell data into various concept based on pre-defined causal structure between underlying concepts. Additionally, CausCell can be used for counterfactual generation in single-cell data, while the counterfactual generated cells are consistent with the causal structure in realistic cases.
-
+<p align="center"><img src="https://github.com/bm2-lab/CausCell/blob/main/img/Framework.png" alt="CausCell" width="900px" /></p>  
 ## Installation
 Our experiments were conducted on python=3.9.7 and our CUDA version is 11.4.
 We recommend using Anaconda / Miniconda to create a conda environment for using CausCell. You can create a python environment using the following command:
