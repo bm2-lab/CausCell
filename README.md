@@ -1,4 +1,4 @@
-# CausCell: Causal disentanglement for single-cell representations
+# CausCell: Causal disentanglement for single-cell representations and controllable counterfactual generation
 ## Introduction 
 This repository hosts the official implementation of CausCell, a method that can disentangle single-cell data into various concept based on pre-defined causal structure between underlying concepts. Additionally, CausCell can be used for counterfactual generation in single-cell data, while the counterfactual generated cells are consistent with the causal structure in realistic cases.
 <p align="center"><img src="https://github.com/bm2-lab/CausCell/blob/main/img/Framework.png" alt="CausCell" width="900px" /></p>  
