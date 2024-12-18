@@ -140,6 +140,7 @@ counterfactual_generated_cells = model.counterfactual_generation(data_pwd="./Dat
                                                                  multi_target_list=multi_target_list, 
                                                                  file_name="Counterfactual_generated_cells")
 ```
-## Citation
+## Citation  
+Yicheng Gao, Kejing Dong, Qi Liu et al. Causal disentanglement for single-cell representations and controllable counterfactual generation, BioRxiv, 2024.
 ## Contacts
 bm2-lab@tongji.edu.cn
