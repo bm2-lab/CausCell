@@ -1,4 +1,5 @@
 # CausCell: Causal disentanglement for single-cell representations and controllable counterfactual generation
+[![DOI image](https://zenodo.org/badge/DOI/10.5281/zenodo.15242547.svg)](https://zenodo.org/records/15242547)
 ## Introduction 
 This repository hosts the official implementation of CausCell, a method that can disentangle single-cell data into various concept based on pre-defined causal structure between underlying concepts. Additionally, CausCell can be used for counterfactual generation in single-cell data, while the counterfactual generated cells are consistent with the causal structure in realistic cases.
 <p align="center"><img src="https://github.com/bm2-lab/CausCell/blob/main/img/Framework.png" alt="CausCell" width="900px" /></p>  
@@ -36,6 +37,10 @@ graph LR
     Concept_B --> Concept_C
     Unexplained_concept
 ```
+
+## Real demo data
+We have uploaded all benchmark datasets to Zenodo, which can be obtained from [here](https://zenodo.org/records/15242547). Please download all these files into the `./Data` directory and refer `real_demo.ipynb` in `./Tutorial` directory. This tutorial uses the one fold of MERFISH_Brain dataset as an example to perform the model training, disentanglement and counterfactual generation.
+
 ## Core API interface for model training
 Using this API, you can train CausCell on your own datasets using a few lines of code. 
 ```python
